@@ -27,7 +27,7 @@ public:
     int write(const std::vector<uint8_t>& buffer){}
     // void writeString(const std::string& s);
 
-    size_t read(const size_t number=1024);
+    std::array<std::uint8_t,1024> read(const size_t number=1024);
     // int read(std::string);
 
     // void dtr(bool val);

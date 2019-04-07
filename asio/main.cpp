@@ -12,8 +12,8 @@ int main(int argc, char* argv[]){
         serial.write("Hello world\n");
         // string msg;
         int num = serial.read(100);
-        string msg(serial.buffer.data(), serial.buffer.size());
-        cout << "Received [" << num << "]: " << msg << " : end" << endl;
+        // string msg(serial.buffer.data(), serial.buffer.size());
+        // cout << "Received [" << num << "]: " << msg << " : end" << endl;
     }
     catch(boost::system::system_error& e){
         cout << "Error: " << e.what() << endl;
