@@ -1,4 +1,4 @@
-# Serial Port
+# Boost Serial Port
 
 I have a minimal working, cross platform serial port working.
 
